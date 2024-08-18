@@ -10,6 +10,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+
+    <script src="https://kit.fontawesome.com/caa263ab3b.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
@@ -29,18 +31,50 @@
         <!-- main-content: -->
         <div class="main-content">
             <div class="top-nav">
-                <button class="top-nav-button File"> File </button>
-                <button class="top-nav-button Edit"> Edit </button>
-                <button class="top-nav-button Selection"> Selection </button>
-                <button class="top-nav-button View"> View </button>
-                <button class="top-nav-button Go"> Go </button>
-                <button class="top-nav-button Run"> Run </button>
-                <button class="top-nav-button Terminal"> Terminal </button>
-                <button class="top-nav-button Help"> Help </button>
+                <button class="top-nav-button top-nav-file"> File </button>
+                <button class="top-nav-button top-nav-edit"> Edit </button>
+                <button class="top-nav-button top-nav-selection"> Selection </button>
+                <button class="top-nav-button top-nav-view"> View </button>
+                <button class="top-nav-button top-nav-go"> Go </button>
+                <button class="top-nav-button top-nav-run"> Run </button>
+                <button class="top-nav-button top-nav-terminal"> Terminal </button>
+                <button class="top-nav-button top-nav-help"> Help </button>
             </div>
+            
+            <!-- editor-container:  -->
             <div class="editor-container">
-                <div class="side-nav"></div>
+                <div class="side-nav">
+                    <div class="side-nav-top-button-container">
+                        <button class="side-nav-button side-nav-files-button">
+                            <img class="side-nav-button-image" src="/images/files.svg" alt="files-button">
+                        </button>
+
+                        <button class="side-nav-button side-nav-search-button">
+                            <img class="side-nav-button-image" src="/images/search.svg" alt="">                           
+                        </button>
+
+                        <button class="side-nav-button side-nav-run-and-debug-button">
+                            <img class="side-nav-button-image" src="/images/run-and-debug.svg" alt="">
+                        </button>
+
+                        <button class="side-nav-button side-nav-extensions-button">
+                            <img class="side-nav-button-image" src="/images/extensions.svg" alt="">
+                        </button>
+                    </div>
+
+                    <div class="side-nav-bottom-button-container">
+                        <button class="side-nav-button side-nav-accounts-button">
+                            <img class="side-nav-button-image" src="/images/accounts.svg" alt="">
+                        </button>
+
+                        <button class="side-nav-button side-nav-manage-button">
+                            <img class="side-nav-button-image" src="/images/manage.svg" alt="">
+                        </button>
+                    </div>
+                </div>
+
                 <div class="file-explorer"></div>
+
                 <div class="main-content-area"></div>
             </div>
         </div>
