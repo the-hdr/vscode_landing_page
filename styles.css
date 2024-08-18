@@ -26,9 +26,53 @@ body
 {
     height: var(--header-height);
 
-    background-color: rgb(40, 40, 40);
+    background-color: rgb(33, 33, 33);
     color: white;
-    font-size: 6px;
+    /* font-size: idk;  */
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100vw;
+    padding: 5px 10px;
+    box-sizing: border-box;
+}
+
+
+.filename
+{
+    text-align: center;
+    flex-grow: 1;
+
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.top-buttons
+{
+    display: flex;
+    gap: 10px;
+}
+
+.top-buttons button
+{
+    width: 20px;
+    height: 20px;
+    border: none;
+    background-color: #ddd;
+    cursor: pointer;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    line-height: 20px;
+
+    border-radius: 10px;
+    color: white;
+    background-color: rgb(40, 40, 40);
+}
+
+.top-buttons button:hover
+{
+    background-color: rgb(54, 54, 54);
 }
 
 .main-content
