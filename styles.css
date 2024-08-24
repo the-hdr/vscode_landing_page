@@ -132,11 +132,6 @@ body
     flex-direction: column;
 }
 
-img
-{
-    width: 35px;
-}
-
 .side-nav-bottom-button-container
 {
     display: flex;
@@ -170,9 +165,22 @@ img
 {
     width: 10rem;
 
+    color: white;
     background-color: rgb(23, 23, 23);
 
     border-right: var(--thin-border);
+}
+
+.file-explorer-header
+{
+    font-size: 12px;
+    height: 24px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
+    /* border-bottom: var(--thin-border); */
 }
 
 .footer
