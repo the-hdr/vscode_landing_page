@@ -145,6 +145,8 @@ body
 
     height: calc(100vh - (var(--footer-height) + var(--header-height) + var(--top-nav-height)));
 
+    background-color: rgb(30, 30, 30);
+
     /* height: 100vh; */
 }
 
@@ -154,6 +156,13 @@ body
     background-color: rgb(26, 26, 26);
 
     height: 60px;
+    width: auto;
+}
+
+.side-nav-button-image
+{
+    height: 30px;
+    width: auto;
 }
 
 .side-nav-button:hover
