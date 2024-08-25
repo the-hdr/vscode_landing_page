@@ -192,6 +192,39 @@ body
     /* border-bottom: var(--thin-border); */
 }
 
+.main-content-area
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    width: 100%;
+    height: 100%;
+}
+
+.big-logo
+{
+    height: 350px;
+    width: auto;
+}
+
+.big-command-box-container
+{
+    display: flex;
+    gap: 1rem;
+}
+
+.big-command-box-left
+{
+    color: rgb(85, 85, 85);
+}
+
+.big-command-box-right
+{
+    color: rgb(150, 150, 150);
+}
+
 .footer
 {
     height: var(--footer-height);
