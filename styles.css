@@ -41,6 +41,9 @@ body
     width: 100vw;
     padding: 5px 10px;
     box-sizing: border-box;
+
+    /* chatgpt for centering the .filename (also check .top-buttons): */
+    position: relative;
 }
 
 
@@ -55,6 +58,10 @@ body
 
 .top-buttons
 {
+    /* chatgpt for centering the .filename (also check .header): */
+    position: absolute;
+    right: 10px;
+
     display: flex;
     gap: 10px;
 }
