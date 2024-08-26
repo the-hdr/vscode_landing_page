@@ -209,10 +209,26 @@ body
     width: auto;
 }
 
+.command
+{
+    padding: 5px;
+}
+
+.command-span
+{
+    background-color: rgb(48, 48, 48);
+    padding: 4px;
+    margin: 2px;
+
+    border-radius: 5px;
+}
+
 .big-command-box-container
 {
     display: flex;
     gap: 1rem;
+
+    padding: 20px;
 }
 
 .big-command-box-left
