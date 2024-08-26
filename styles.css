@@ -234,6 +234,8 @@ body
 .big-command-box-left
 {
     color: rgb(85, 85, 85);
+
+    text-align: right;
 }
 
 .big-command-box-right
