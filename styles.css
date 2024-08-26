@@ -157,6 +157,8 @@ body
 
     height: 60px;
     width: auto;
+
+    cursor: pointer;
 }
 
 .side-nav-button-image
